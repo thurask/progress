@@ -29,12 +29,12 @@ class Spinner(WriteMixin, Infinite):
 
 
 class PieSpinner(Spinner):
-    phases = [u'◷', u'◶', u'◵', u'◴']
+    pass
 
 
 class MoonSpinner(Spinner):
-    phases = [u'◑', u'◒', u'◐', u'◓']
+    pass
 
 
 class LineSpinner(Spinner):
-    phases = [u'⎺', u'⎻', u'⎼', u'⎽', u'⎼', u'⎻']
+    pass
