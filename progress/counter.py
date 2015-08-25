@@ -34,14 +34,11 @@ class Countdown(WriteMixin, Progress):
 
 
 class Stack(WriteMixin, Progress):
-    phases = (u' ', u'▁', u'▂', u'▃', u'▄', u'▅', u'▆', u'▇', u'█')
-    hide_cursor = True
+    pass
 
     def update(self):
-        nphases = len(self.phases)
-        i = min(nphases - 1, int(self.progress * nphases))
-        self.write(self.phases[i])
+        pass
 
 
 class Pie(Stack):
-    phases = (u'○', u'◔', u'◑', u'◕', u'●')
+    pass
